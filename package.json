@@ -1,4 +1,11 @@
 {
   "name": "lunarpass-tests",
-  "packageManager": "yarn@4.14.1"
+  "packageManager": "yarn@4.14.1",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  },
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
 }
